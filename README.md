@@ -16,29 +16,37 @@ We suggest the following **submission template**:
 
 #### Project name
 
-Name of your project
+Bras cassés
 
 #### Project description
 
-A short description of what makes your project unique !
+Our submission to the hackathon organized by echopen at Epita
 
 #### Team members
 
-* Ada Lovelace
-* Claude Shannon
-* Stephen Hawking
+* Ines Khemir
+* Dianes Vera
+* Jake Penney
 
 #### Preprocessing and training methods
 
-Explain in details the preprocessing and training methods(dataset split and stratification, hyperparameters selection) you are using to build your global predictor of the patient's clinical outcome.
-You will also provide a link to the source code implementing these different steps.
+## Preprocessing
+- KNN
+- Getting rid of useless columns
+
+## Training methods
+- Decision Tree
+- MLP
 
 #### Model performances
-The model performances are evaluated on a hidden subset of the dataset following the [F1-score](https://towardsdatascience.com/the-f1-score-bec2bbc38aa6) applied to patient's clinical outcome variable.
+
+- Decision tree accuracy: 84%
+- MLP accuracy: 90%
+In pratice the models unfortuantly were overfitted.
 
 #### Medical discussion and model interpretability
 
-In this section, you will provide meaningfull visualizations and interpretations that will help to understand the underlying dynamic of the model decision. It will nurture a medical discussion with the radiologists involved in the challenge.  
+Confusion matrixes availible in the notebooks.
 
 ## Challenge partners
 
